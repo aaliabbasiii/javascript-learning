@@ -15,3 +15,14 @@ for(const key in object)
 {
     console.log(key, ":-", object[key])
 }
+console.log("")
+const array = [2,3,4,5,76,7]
+for(const val in array)
+{
+    console.log(val)
+}
+console.log()
+for(const val in array)
+{
+    console.log(array[val])
+}
