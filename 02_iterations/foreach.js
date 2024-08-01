@@ -78,3 +78,18 @@ const values = arr2.forEach( (item) => {
 
 console.log(values); //forEach does not return anything
 
+const nums = [1,2,3,4,5,6,87,8,76]
+
+const vals = nums.filter( (num) => num > 5) //paranthesis will return the array with value
+console.log(vals);
+
+const v = nums.filter( (num) => { 
+    num > 4
+})
+console.log(v);
+const x = nums.filter( (num) => {   //curly braces started so we need to use the return keyword
+    return num > 4
+})
+console.log(x);
+
+ 
